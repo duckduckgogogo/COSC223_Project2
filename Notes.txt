@@ -1,0 +1,6 @@
+How does job size variability affect mean response time in a single-server queueing system?
+
+Tasks: 
+1. Program simulating single-server queueing system (interarrival times ~ Exp)
+2. Measure mean response time under different assumptions about job size (job size ~ Hyperexp)
+3. Compute E[X], E[X^2], Var(X) (Var(X) = {1, 10, 20, 50})
