@@ -4,3 +4,24 @@ Tasks:
 1. Program simulating single-server queueing system (interarrival times ~ Exp)
 2. Measure mean response time under different assumptions about job size (job size ~ Hyperexp)
 3. Compute E[X], E[X^2], Var(X) (Var(X) = {1, 10, 20, 50})
+
+E[X]: 1 = (p/u_1) + ((1-p)/u_2)
+Var(X): {1, 10, 20, 50} = (p/(u_1)^2) + ((1-p)/(u_2)^2) - 1
+p/u_1 = (1-p)/u_2
+
+Var(X) = 1
+  p = (1/4)(2-\sqrt{2}) = 0.146447
+  u_1 = (1/2)(2-\sqrt{2}) = 0.292893
+  u_2 = (1/2)(2+\sqrt{2}) = 1.70711
+Var(X) = 10
+  p = (1/22)(11-\sqrt{110}) = 0.0232687
+  u_1 = (1/11)(11-\sqrt{110}) = 0.0465374
+  u_2 = (1/11)(11-\sqrt{110}) = 1.95346
+Var(X) = 20
+  p = (1/42)(21-2\sqrt{105}) = 0.01205
+  u_1 = (1/21)(21-2\sqrt{105}) = 0.0240999
+  u_2 = (1/21)(21+2\sqrt{105}) = 1.9759
+Var(X) = 50
+  p = (1/102)(51 - 5\sqrt{102}) = 0.00492623
+  u_1 = (1/51)(51-5\sqrt{102}) = 0.00985246
+  u_2 = (1/51)(51+5\sqrt{102}) = 1.99015
