@@ -80,9 +80,9 @@ public class Simulator {
 		
 		return total_rt/990000;
 	}
-	public double runSimulation2(int policy) { //Policy 1: assign jobs to servers based on probability
+	public double runSimulation2(int pol) { //Policy 1: assign jobs to servers based on probability
 		HashMap<Integer, Integer> jobsToServers = null;
-		if(policy == 1) {//set jobsToServers based on which policy we're simulating so we'll have more cases for different policies 
+		if(pol == 1) {//set jobsToServers based on which policy we're simulating so we'll have more cases for different policies 
 			jobsToServers = this.gen.mapJobsToServers(num_jobs);
 		}
 		Double curr_time = 0.0;
