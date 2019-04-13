@@ -31,6 +31,7 @@ Simulator.java contains the method runSimulation which simulates an event driven
 and returns the mean response time.
 	input- exponential distribution rate, hyperexponential distribution parameters (mu1, mu2 and p), 
 	       interarrival distribution type (String), and job distribution type(String) 
+	output- mean response time
 
 Experiment.java contains the main method. Running this file performs the simulations using several different parameters,
-and prints respective mean response times. 
+and prints out respective mean response times. 
