@@ -1,4 +1,4 @@
-We have submitted three different java classes
+We have submitted three different java classes: Generators.java, Simulator.java, and Experiment.java. 
 
 Generators.java contains the following methods:
 
